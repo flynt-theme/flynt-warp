@@ -1,0 +1,26 @@
+---
+output: flynt-{{ .variant }}.yaml
+---
+accent: '{{ .amber }}'
+background: '{{ .bg }}'
+details: {{ if eq .variant "dark" }}darker{{ else }}lighter{{ end }}
+foreground: '{{ .tx }}'
+terminal_colors:
+  bright:
+    black: '{{ .bg3 }}'
+    blue: '{{ index (index .shades "delft") "400" }}'
+    cyan: '{{ index (index .shades "teal") "400" }}'
+    green: '{{ index (index .shades "fern") "400" }}'
+    magenta: '{{ index (index .shades "iris") "400" }}'
+    red: '{{ index (index .shades "ember") "400" }}'
+    white: '{{ .tx }}'
+    yellow: '{{ index (index .shades "amber") "400" }}'
+  normal:
+    black: '{{ .bg2 }}'
+    blue: '{{ .delft }}'
+    cyan: '{{ .teal }}'
+    green: '{{ .fern }}'
+    magenta: '{{ .iris }}'
+    red: '{{ .ember }}'
+    white: '{{ .tx2 }}'
+    yellow: '{{ .amber }}'
