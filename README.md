@@ -8,8 +8,8 @@ Warm tones. Zero visual noise. - [Flynt](https://flynt-theme.github.io/flynt) fo
 
    ```sh
    mkdir -p ~/.warp/themes
-   cp flynt-dark.yaml ~/.warp/themes/
-   cp flynt-light.yaml ~/.warp/themes/
+   cp themes/flynt-dark.yaml ~/.warp/themes/
+   cp themes/flynt-light.yaml ~/.warp/themes/
    ```
 
 2. Open Warp - Settings - Appearance - Theme and select **Flynt Dark** or **Flynt Light**.
@@ -20,7 +20,7 @@ Themes are generated from [`theme.yaml.tmpl`](theme.yaml.tmpl) using [strike](ht
 
 ```sh
 brew tap flynt-theme/tap && brew install strike
-strike build theme.yaml.tmpl
+strike build theme.yaml.tmpl --out themes/
 ```
 
 ## License
