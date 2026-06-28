@@ -1,4 +1,4 @@
-accent: '#B4963C'
+accent: '#C69F2A'
 background: '#100E0C'
 details: darker
 foreground: '#F5EDD8'
@@ -14,10 +14,10 @@ terminal_colors:
     yellow: '#D1BA75'
   normal:
     black: '#1C1916'
-    blue: '#3C7CB4'
-    cyan: '#3CB4AA'
-    green: '#96B43C'
+    blue: '#427BAE'
+    cyan: '#48A8A0'
+    green: '#93AE42'
     magenta: '#B43C7C'
-    red: '#B4463C'
+    red: '#C6372A'
     white: '#D8CEBC'
-    yellow: '#B4963C'
+    yellow: '#C69F2A'
