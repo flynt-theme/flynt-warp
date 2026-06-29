@@ -2,6 +2,11 @@
 
 Warm tones. Zero visual noise. - [Flynt](https://flynt-theme.github.io/flynt) for [Warp](https://www.warp.dev).
 
+<table align="center" border="0" cellspacing="0" cellpadding="8"><tr>
+  <td><img src="assets/flynt-dark.svg" width="370" alt="Flynt Dark" /></td>
+  <td><img src="assets/flynt-light.svg" width="370" alt="Flynt Light" /></td>
+</tr></table>
+
 ## Install
 
 1. Copy the theme files into `~/.warp/themes/` (create it if it doesn't exist):
